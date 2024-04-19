@@ -38,31 +38,10 @@ public class Main {
 
         Weapon axe = new Weapon("Axe");
         Weapon longbow = new Weapon("Longbow");
+        Weapon stone = new Weapon("Stone");
 
-        elf1.useWeapon(longbow);
-        dwarf8.useWeapon(axe);
+        human2.useToss(stone);
 
-
-
-
-
-        elf1.eat();
-
-
-        elf3.eatMultiple(human9,human3,elf2,elf1);
-
-        human1.eat();
-        human3.drink();
-
-        human3.walk();
-        human1.walkMultiple(human2, human4, human3, human10, human6);
-        human5.eatMultiple(human9, human8,human7, human3);
-
-        human3.sleep();
-        human4.sleepMultiple(human7, human5, human10);
-
-        elf5.eatMultiple(human2,human4,elf6,elf5,dwarf2,dwarf5);
-        dwarf1.drinkMultiple(dwarf5,elf10);
 
     }
 }

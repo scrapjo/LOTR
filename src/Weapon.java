@@ -47,33 +47,33 @@ public class Weapon {
 
     public String swing() {
         if (name.equals("Sword") || name.equals("Flail") || name.equals("Axe")) {
-            return "The " + name + "is swung in a wide arc. ";
+            return  " swung the " + name + " in a wide arc. ";
         } else {
-            return "The " + name + " cannot be swung. ";
+            return " cannot be swing the " + name;
         }
     }
-
+    //Todo ammo count
     public String shoot() {
         if(name.equals("Longbow") || name.equals("Slingshot")) {
-            return "The " + name + " is fired. ";
+            return " has fired the " + name;
         } else {
-            return "The " + name + " cannot be shot. ";
+            return " cannot be shoot with the " + name;
         }
     }
 
     public String stab() {
         if(name.equals("Fork") || name.equals("Sword") || name.equals("Spear")) {
-            return "The " + name + " is stabbing. ";
+            return " is stabbing with the " + name;
         } else {
-            return "The " + name + " cannot stab. ";
+            return " cannot stab with the " + name;
         }
     }
 
     public String toss() {
         if(name.equals("Stone") || name.equals("Spear") || name.equals("fork")) {
-            return "The " + name + " is tossing. ";
+            return " is tossing the " + name;
         } else {
-            return "The " + name + " cannot be tossed. ";
+            return " cannot toss the " + name;
         }
     }
 
