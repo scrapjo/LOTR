@@ -1,3 +1,4 @@
+
 public class Main {
     public static void main(String[] args) {
 
@@ -32,6 +33,8 @@ public class Main {
         Dwarf dwarf8 = new Dwarf("Óin",150,80);
         Dwarf dwarf9 = new Dwarf("Glóin",321,55);
         Dwarf dwarf10 = new Dwarf("Bofur",180,45);
+
+        
 
         elf1.eat();
 
