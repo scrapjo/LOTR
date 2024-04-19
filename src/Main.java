@@ -1,4 +1,5 @@
 
+
 public class Main {
     public static void main(String[] args) {
 
@@ -34,7 +35,16 @@ public class Main {
         Dwarf dwarf9 = new Dwarf("Glóin",321,55);
         Dwarf dwarf10 = new Dwarf("Bofur",180,45);
 
-        
+
+        Weapon axe = new Weapon("Axe");
+        Weapon longbow = new Weapon("Longbow");
+
+        elf1.useWeapon(longbow);
+        dwarf8.useWeapon(axe);
+
+
+
+
 
         elf1.eat();
 

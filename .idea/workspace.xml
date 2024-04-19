@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6cb809a-d721-43d3-ab65-1bd877e77127" name="Changes" comment="" />
+    <list default="true" id="f6cb809a-d721-43d3-ab65-1bd877e77127" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LivingBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivingBeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weapon.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -59,6 +68,18 @@
       <option name="presentableId" value="Default" />
       <updated>1713518944756</updated>
     </task>
+    <task id="LOCAL−00001" summary="updating files">
+      <option name="closed" value="true" />
+      <created>1713520018967</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1713520018967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updating files" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating files" />
   </component>
 </project>

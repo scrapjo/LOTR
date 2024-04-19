@@ -1,3 +1,5 @@
+
+
 public class LivingBeing {
 
     String name;
