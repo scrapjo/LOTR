@@ -41,7 +41,14 @@ public class Main {
         Weapon stone = new Weapon("Stone");
 
         human2.useToss(stone);
-
-
+        //TODo health increase when eat/drink/sleep
+        //TODO cooldown time when sleep
+        //TODO food drink cooldown time
+        //TODO decrease health struck by weapon
+        //TODO can work together
+        //TODO max drink/food inventory
+        //TODO Armour/shield
+        //TODO Houses/restingplaces decrease cooldown
+        //TODO weapons can be broken/repaired
     }
 }
