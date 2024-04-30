@@ -2,6 +2,15 @@ import java.util.ArrayList;
 
 public class Dwarf extends LivingBeing{
 
+    private static final String[] NAMES = {
+            "Azaghâl", "Balin", "Bofur", "Dáin", "Durin", "Dwalin", "Fíli", "Gimli", "Glóin", "Óin", "Thorin"
+    };
+
+    private static final int MIN_AGE = 30;
+    private static final int MAX_AGE = 250;
+    private static final int MIN_WEIGHT = 50;
+    private static final int MAX_WEIGHT = 100;
+
     Dwarf(String name, int age, double weight) {
         super (name, age, weight);
     }
@@ -15,7 +24,15 @@ public class Dwarf extends LivingBeing{
     }
 
     public ArrayList<Weapon> getAvailableWeapons() {
+
         return Weapon.PREDEFINED_WEAPONS;
+    }
+
+    public static Dwarf generateRandomDwarf() {
+        String name = NAMES[(int)(Math.random() * NAMES.length)];
+        int age = MIN_AGE + (int)(Math.random() * (MAX_AGE - MIN_AGE + 1));
+        double weight = MIN_WEIGHT + (Math.random() * (MAX_WEIGHT - MIN_WEIGHT + 1));
+        return new Dwarf(name, age, weight);
     }
 
 }

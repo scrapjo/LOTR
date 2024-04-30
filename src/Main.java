@@ -36,6 +36,10 @@ public class Main {
         Dwarf dwarf10 = new Dwarf("Bofur",180,45);
 
 
+        Hobbit hobbit1 = new Hobbit("Frodo", 34, 50);
+
+
+
         Weapon axe = new Weapon("Axe");
         Weapon longbow = new Weapon("Longbow");
         Weapon stone = new Weapon("Stone");
