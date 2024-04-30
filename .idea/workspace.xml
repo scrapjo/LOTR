@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6cb809a-d721-43d3-ab65-1bd877e77127" name="Changes" comment="">
+    <list default="true" id="f6cb809a-d721-43d3-ab65-1bd877e77127" name="Changes" comment="added more weapons">
+      <change afterPath="$PROJECT_DIR$/src/Tossable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LivingBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivingBeing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weapon.java" afterDir="false" />
     </list>
@@ -19,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,7 +111,14 @@
       <option name="presentableId" value="LOCAL−00005" />
       <updated>1714461694016</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL−00006" summary="added more weapons">
+      <option name="closed" value="true" />
+      <created>1714512391306</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1714512391306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,6 +127,7 @@
     <MESSAGE value="dwarf, Elf, Human can use the weapons.&#10;The weapons class is updated with predef damage.&#10;&#10;updated the print statements so that they made more sense.&#10;&#10;cleaned up some more code&#10;added more stuff to TODO list" />
     <MESSAGE value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class" />
     <MESSAGE value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class&#10;added feature to create random characters, ie random human, random dwarf" />
-    <option name="LAST_COMMIT_MESSAGE" value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class&#10;added feature to create random characters, ie random human, random dwarf" />
+    <MESSAGE value="added more weapons" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more weapons" />
   </component>
 </project>

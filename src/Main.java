@@ -53,6 +53,7 @@ public class Main {
         System.out.println(randomElf);
         System.out.println(randomHuman);
         human2.useToss(stone);
+        dwarf3.useToss(dwarf2);
 
         //TODo health increase when eat/drink/sleep
         //TODO cooldown time when sleep

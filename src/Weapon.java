@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Weapon {
+public class Weapon implements Tossable{
 
     private String name;
     private int damage;
@@ -13,6 +13,7 @@ public class Weapon {
 
     //TODO make weapons usable in different ways and to have different ammount of damage if they are used in different ways
     //TODO make more weapons
+
     static {
             PREDEFINED_WEAPONS.add(new Weapon("Sword", 10));
             PREDEFINED_WEAPONS.add(new Weapon("Axe", 15));
@@ -90,14 +91,36 @@ public class Weapon {
         }
     }
 
+    @Override
+    public void useToss(Tossable tossable) {
+        if (tossable instanceof Weapon) {
+            Weapon weapon = (Weapon) tossable;
+            String tossResult = weapon.toss();
+            if (tossResult.contains("cannot")) {
+                System.out.println(this.getName() + " cannot toss the " + weapon.getName());
+            } else {
+                System.out.println(this.getName() + " " + tossResult);
+            }
+        } else if (tossable instanceof Dwarf) {
+            Dwarf dwarf = (Dwarf) tossable;
+            System.out.println(this.getName() + " is tossing " + dwarf.getName());
+
+        }
+    }
+    @Override
+    public String getName() {
+        return this.name;
+    }
+
     public ArrayList<Weapon> getPredefinedWeapons() {
         return new ArrayList<>(PREDEFINED_WEAPONS);
     }
 
-    public String getName() {
-        return this.name;
+
+
+
     }
-}
+
 
 
 
