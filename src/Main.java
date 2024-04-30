@@ -44,6 +44,12 @@ public class Main {
         Weapon longbow = new Weapon("Longbow");
         Weapon stone = new Weapon("Stone");
 
+
+        Elf randomElf = Elf.generateRandomElf();
+        Human randomHuman = Human.generateRandomHuman();
+
+        System.out.println(randomElf);
+        System.out.println(randomHuman);
         human2.useToss(stone);
         //TODo health increase when eat/drink/sleep
         //TODO cooldown time when sleep

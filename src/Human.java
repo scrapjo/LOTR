@@ -9,8 +9,8 @@ public class Human extends LivingBeing {
     };
     private static final int MIN_AGE = 18;
     private static final int MAX_AGE = 100;
-    private static final int MIN_WEIGHT = 50;
-    private static final int MAX_WEIGHT = 140;
+    private static final double MIN_WEIGHT = 50;
+    private static final double MAX_WEIGHT = 140;
     //TODO height?
 
 

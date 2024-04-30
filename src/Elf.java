@@ -13,8 +13,6 @@ public class Elf extends LivingBeing{
     private static final double MAX_WEIGHT = 90;
 
 
-
-
     Elf(String name, int age, double weight) {
         super (name, age, weight);
     }
@@ -35,4 +33,6 @@ public class Elf extends LivingBeing{
         double weight = MIN_WEIGHT +(Math.random() * (MAX_WEIGHT -MIN_WEIGHT + 1));
         return new Elf(name, age, weight);
     }
+
+
 }

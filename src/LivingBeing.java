@@ -13,10 +13,22 @@ public class LivingBeing {
         this.weight = weight;
 
     }
-
         public String getName() {
-            return this.name;
+        return this.name;
         }
+
+        public int getAge() {
+        return this.age;
+        }
+
+        public double getWeight() {
+        return this.weight;
+        }
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName() + ": " + getName() + ", Age: " + getAge() + " Weight: " + String.format("%.2f", getWeight()) + " kg";
+    }
 
         void eat () {
             System.out.println(this.name + " is eating");

@@ -8,8 +8,8 @@ public class Dwarf extends LivingBeing{
 
     private static final int MIN_AGE = 30;
     private static final int MAX_AGE = 250;
-    private static final int MIN_WEIGHT = 50;
-    private static final int MAX_WEIGHT = 100;
+    private static final double MIN_WEIGHT = 50;
+    private static final double MAX_WEIGHT = 100;
 
     Dwarf(String name, int age, double weight) {
         super (name, age, weight);
