@@ -30,6 +30,7 @@ public class LivingBeing {
         return this.getClass().getSimpleName() + ": " + getName() + ", Age: " + getAge() + " Weight: " + String.format("%.2f", getWeight()) + " kg";
     }
 
+
         void eat () {
             System.out.println(this.name + " is eating");
         }

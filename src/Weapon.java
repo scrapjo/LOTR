@@ -22,6 +22,12 @@ public class Weapon {
             PREDEFINED_WEAPONS.add(new Weapon("Flail", 17));
             PREDEFINED_WEAPONS.add(new Weapon("Stone", 4));
             PREDEFINED_WEAPONS.add(new Weapon("Spear", 16));
+
+            PREDEFINED_WEAPONS.add(new Weapon("Spoon", 3));
+            PREDEFINED_WEAPONS.add(new Weapon("Pot", 5));
+            PREDEFINED_WEAPONS.add(new Weapon("Mace", 10));
+            PREDEFINED_WEAPONS.add(new Weapon("Morning Star", 15));
+            PREDEFINED_WEAPONS.add(new Weapon("Sling", 13));
         }
 
     static {
@@ -33,6 +39,12 @@ public class Weapon {
             PREDEFINED_WEAPON_DAMAGE.put("Flail", 17);
             PREDEFINED_WEAPON_DAMAGE.put("Stone", 4);
             PREDEFINED_WEAPON_DAMAGE.put("Spear", 16);
+
+            PREDEFINED_WEAPON_DAMAGE.put("Spoon", 3);
+            PREDEFINED_WEAPON_DAMAGE.put("Pot", 5);
+            PREDEFINED_WEAPON_DAMAGE.put("Mace", 10);
+            PREDEFINED_WEAPON_DAMAGE.put("Morning Star", 15);
+            PREDEFINED_WEAPON_DAMAGE.put("Sling", 13);
     }
 
     public Weapon(String name, int damage) {
@@ -46,7 +58,8 @@ public class Weapon {
     }
 
     public String swing() {
-        if (name.equals("Sword") || name.equals("Flail") || name.equals("Axe")) {
+        if (name.equals("Sword") || name.equals("Flail") || name.equals("Axe") || name.equals("Spoon") || name.equals("Pot")
+                || name.equals("Mace") || name.equals("Morning Star")) {
             return  " swung the " + name + " in a wide arc. ";
         } else {
             return " cannot be swing the " + name;
@@ -54,7 +67,7 @@ public class Weapon {
     }
     //Todo ammo count
     public String shoot() {
-        if(name.equals("Longbow") || name.equals("Slingshot")) {
+        if(name.equals("Longbow") || name.equals("Slingshot") || name.equals("Sling")) {
             return " has fired the " + name;
         } else {
             return " cannot be shoot with the " + name;
@@ -62,7 +75,7 @@ public class Weapon {
     }
 
     public String stab() {
-        if(name.equals("Fork") || name.equals("Sword") || name.equals("Spear")) {
+        if(name.equals("Fork") || name.equals("Sword") || name.equals("Spear") || name.equals("Spoon")) {
             return " is stabbing with the " + name;
         } else {
             return " cannot stab with the " + name;
@@ -70,7 +83,7 @@ public class Weapon {
     }
 
     public String toss() {
-        if(name.equals("Stone") || name.equals("Spear") || name.equals("fork")) {
+        if(name.equals("Stone") || name.equals("Spear") || name.equals("Fork") || name.equals("Spoon") || name.equals("Pot")) {
             return " is tossing the " + name;
         } else {
             return " cannot toss the " + name;

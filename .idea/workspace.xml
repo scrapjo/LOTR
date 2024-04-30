@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f6cb809a-d721-43d3-ab65-1bd877e77127" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dwarf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Elf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Elf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hobbit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hobbit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LivingBeing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LivingBeing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,14 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1714459290944</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class&#10;added feature to create random characters, ie random human, random dwarf">
+      <option name="closed" value="true" />
+      <created>1714461694016</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1714461694016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -112,6 +116,7 @@
     <MESSAGE value="dwarf, Elf, Human can use the weapons.&#10;The weapons class is updated with predef damage." />
     <MESSAGE value="dwarf, Elf, Human can use the weapons.&#10;The weapons class is updated with predef damage.&#10;&#10;updated the print statements so that they made more sense.&#10;&#10;cleaned up some more code&#10;added more stuff to TODO list" />
     <MESSAGE value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class" />
-    <option name="LAST_COMMIT_MESSAGE" value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class" />
+    <MESSAGE value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class&#10;added feature to create random characters, ie random human, random dwarf" />
+    <option name="LAST_COMMIT_MESSAGE" value="weight, names, and age are now in the separate classes&#10;made method for creating random char for each class&#10;added Hobbit class&#10;added feature to create random characters, ie random human, random dwarf" />
   </component>
 </project>
